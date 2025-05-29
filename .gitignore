@@ -6,7 +6,14 @@
 *.tfvars.json
 crash.log
 .terraform.lock.hcl
-.terraform.tfstate.1745060439.backup
+.terraform.tfstate.*.backup
+.terraform.d/
+
+# Node/npm
+node_modules/
+.npm/
+.npmrc
+package-lock.json
 
 # IDE/editor stuff
 .vscode/
@@ -14,25 +21,16 @@ crash.log
 *.swp
 *.swo
 
-# OS-specific
+# OS/system files
 .DS_Store
 Thumbs.db
-
-# Env and secrets
 .env
-
-# CLI/system files you don't want in GitHub
-.bash_history
-.bash_logout
-.bashrc
-.gitconfig
-.profile
-.sudo_as_admin_successful
-.viminfo
-.qtc*
 .cache/
 .config/
 .docker/
 .kube/
-.npm/
-.terraform.d/
+.bash*
+.profile
+.sudo_as_admin_successful
+.viminfo
+.qtc*
