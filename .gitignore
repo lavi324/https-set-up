@@ -7,6 +7,7 @@
 crash.log
 .terraform.lock.hcl
 .terraform.tfstate.1745060439.backup
+
 # IDE/editor stuff
 .vscode/
 .idea/
@@ -16,4 +17,22 @@ crash.log
 # OS-specific
 .DS_Store
 Thumbs.db
+
+# Env and secrets
 .env
+
+# CLI/system files you don't want in GitHub
+.bash_history
+.bash_logout
+.bashrc
+.gitconfig
+.profile
+.sudo_as_admin_successful
+.viminfo
+.qtc*
+.cache/
+.config/
+.docker/
+.kube/
+.npm/
+.terraform.d/
